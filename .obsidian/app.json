@@ -1,0 +1,8 @@
+{
+  "showUnsupportedFiles": true,
+  "spellcheck": false,
+  "attachmentFolderPath": "09_archive/attachments",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00_inbox"
+}
