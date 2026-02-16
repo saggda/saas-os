@@ -1,4 +1,4 @@
-# SaaS OS — Research → Decision → Build
+# SaS OS — Research → Decision → Build
 
 Профессиональная система для поиска прибыльных ниш и быстрого запуска SaaS.
 
