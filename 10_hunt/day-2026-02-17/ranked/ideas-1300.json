@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Shopify clone-store / impersonation detection + takedown pack",
+    "pain": 4.6,
+    "wtp": 4.1,
+    "frequency": 3.6,
+    "distribution": 4.0,
+    "feasibility": 3.8,
+    "advantage": 3.0,
+    "retention": 3.0,
+    "risk_inverse": 3.2
+  },
+  {
+    "name": "Microsoft 365 outbound email guardrails (deliverability governance)",
+    "pain": 4.2,
+    "wtp": 4.4,
+    "frequency": 3.8,
+    "distribution": 3.6,
+    "feasibility": 3.2,
+    "advantage": 3.1,
+    "retention": 3.6,
+    "risk_inverse": 3.4
+  },
+  {
+    "name": "FB Lead Ads bot-lead firewall (verify + route + refund dossier)",
+    "pain": 4.0,
+    "wtp": 3.6,
+    "frequency": 4.0,
+    "distribution": 3.8,
+    "feasibility": 3.6,
+    "advantage": 2.6,
+    "retention": 3.2,
+    "risk_inverse": 3.2
+  },
+  {
+    "name": "Mobile-first tiny CRM + cash/receipts + tax-ready reports (service businesses)",
+    "pain": 3.6,
+    "wtp": 3.2,
+    "frequency": 4.4,
+    "distribution": 2.6,
+    "feasibility": 3.8,
+    "advantage": 2.2,
+    "retention": 3.6,
+    "risk_inverse": 3.0
+  },
+  {
+    "name": "Agent skill/plugin supply-chain scanner (CI gate) as productized audit sprint",
+    "pain": 4.1,
+    "wtp": 3.8,
+    "frequency": 3.0,
+    "distribution": 2.8,
+    "feasibility": 3.4,
+    "advantage": 3.4,
+    "retention": 2.8,
+    "risk_inverse": 2.8
+  }
+]
