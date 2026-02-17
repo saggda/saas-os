@@ -500,7 +500,39 @@ We are not a law firm and do not provide legal advice. We provide operational su
 
 ---
 
-## 6) Minimal Viable Proof (MVP) — 30-minute mini-audit deliverable (to close payment)
+## 6) Failure points + mitigations (операционные грабли) + evidence threshold
+
+### Top-10 failure points (где ломается) + как обойти
+1) **Неполный Evidence Vault** (нет timestamps / side-by-side) → abuse/registrar отмахиваются.
+2) **Registrar игнорит** → слабые формулировки/нет proof confusion/ущерба.
+3) **Scope creep** → один слабый пункт валит весь репорт; подавай «самый сильный» сценарий.
+4) **Нет follow-up** → многие кейсы требуют 2–3 напоминаний (держим cadence T+6h/24h/48h).
+5) **Репорт не туда** (registrar вместо CDN/host) → всегда сначала WHOIS + NS + host/CDN.
+6) **Нет urgency** → abuse приоритизирует phishing/consumer harm.
+7) **Whack-a-mole** (смена домена/хоста) → ретейнер мониторинга/алерты.
+8) **Counter-notice** → нужна быстрая реакция (окно 10–14 дней).
+9) **Нет “clear violation”** → доказываем consumer harm (misrep/chargebacks) + конкретика.
+10) **False positive** → риск бана репортов; вводим evidence threshold.
+
+### Evidence threshold (когда «достаточно» подавать)
+Подаём репорты только если есть **≥80%** из списка:
+- Side-by-side: **>70% совпадений** в дизайне/тексте/фото.
+- Скрины с timestamps: всё собрано **<24ч**.
+- WHOIS + NS + host/CDN: данные **подтверждены**.
+- Proof confusion: реклама/жалобы клиентов/chargebacks.
+- Ущерб: хотя бы 1 пример (потерянный заказ/жалоба/chargeback).
+
+### Time-to-response expectations (как говорить клиенту)
+Средние окна (зависит от evidence):
+- Host/CDN (Cloudflare/Namecheap): **24–48ч** (быстрее при phishing).
+- Registrar (GoDaddy/Namecheap): **1–7 дней** (медиана ~2 дня по публичным кейсам).
+- Shopify abuse: **24–72ч**, иначе до **10 дней**.
+- Meta Ads: **24ч–2 дня**, иначе до **5 дней**.
+- Google Ads / Safe Browsing: **24ч–5 дней** (deindex 1–3 дня; ads часто ~24ч).
+
+---
+
+## 7) Minimal Viable Proof (MVP) — 30-minute mini-audit deliverable (to close payment)
 
 **Deliverable format:** 1 page PDF or Notion doc.
 
