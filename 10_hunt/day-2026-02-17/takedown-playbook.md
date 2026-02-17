@@ -530,6 +530,24 @@ We are not a law firm and do not provide legal advice. We provide operational su
 - Meta Ads: **24ч–2 дня**, иначе до **5 дней**.
 - Google Ads / Safe Browsing: **24ч–5 дней** (deindex 1–3 дня; ads часто ~24ч).
 
+### Outreach hooks (subject / first-line)
+- “48h Takedown for {Brand} Clones”
+- “Impersonation Alert: Chargebacks Incoming?”
+- “Fake Domain Stealing Your Sales? Quick Fix”
+- “Lookalike Site Detected – Remove in 24h”
+- “Phishing Risk: Protect {Brand} Now”
+
+### Case proof artifacts (если нет цифр $)
+- Time to takedown (MTTD): “3 clones down in 48h” + ticket IDs + before/after
+- Enforcement success rate: % reports that resulted in down/deindex/ads removed
+- Reduction trend on retainer: weekly incidents down X% (with simple chart)
+
+### Client-side scams to avoid (исполнителя разводят)
+- “free deep work” scam: просят полный evidence vault/тестовый takedown и пропадают
+- fake brand / competitor testing: выманивают методы
+- overpayment scam: платят больше и просят вернуть разницу
+Mitigation: mini-audit limited (1–2 domains), sprint starts only after upfront payment.
+
 ---
 
 ## 7) Minimal Viable Proof (MVP) — 30-minute mini-audit deliverable (to close payment)
