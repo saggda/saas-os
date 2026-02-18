@@ -5,3 +5,4 @@
 09_archive/attachments/
 *.tmp
 .secrets/
+*.bak-*
