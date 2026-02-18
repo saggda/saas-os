@@ -1,135 +1,137 @@
-# Ranked Niches — Wave 1100 (2026-02-17)
+# Ranked Candidates — Wave 1100 (2026-02-18)
 
-Scoring: 0–5 each dimension.
-Dimensions: **Pain, WTP, Frequency, Distribution, Feasibility, Advantage, Retention, Risk**.
+Scoring model (1–5; higher is better unless noted):
+- **Pain** (urgency/severity)
+- **WTP** (immediate budget likelihood)
+- **Frequency** (how often pain recurs)
+- **Distribution** (repeatable lead source)
+- **Feasibility** (solo builder in 14–30d)
+- **Advantage** (ability to win vs incumbents)
+- **Retention** (recurring need once solved)
+- **Risk** (5 = low risk, 1 = high risk)
 
-Interpretation notes:
-- **Risk**: 5 = low risk (good), 0 = high risk.
-- Bias: prefer niches with **immediate budget** + **repeatable lead source** + **low execution drag** + **clear first paid offer**.
-
----
-
-## Ranking (top 5)
-
-| Rank | Niche | Total (/40) | Why it wins/loses fast |
-|---:|---|---:|---|
-| 1 | **Shopify B2B Gated Catalog + Per-Company Pricing (non-Plus)** | **33.0** | Clear “I will pay to stop this” operational need; distribution via Shopify agencies; MVP can start as concierge + theme/tag gating. |
-| 2 | **Consent Mode v2 / Tag Compliance Scan + Fix Pack** | **31.5** | Direct paid-ads wastage; easy “free scan → paid fix”; fast close via agencies; monitoring upsell. |
-| 3 | **Microsoft 365 Outbound Email Guardrails** | **30.5** | IT pain + budget; sticky; channel via MSPs; some integration/false-positive risk. |
-| 4 | Shopify Marked-Down Pricing / Promo Compliance Radar | 28.0 | Strong legal-stress pain, but liability + geo-specific rules increase drag. |
-| 5 | Agent/Skill Supply Chain Scanner (CI Gate) | 25.5 | Real problem + regulatory tailwind, but ICP skews security/devtools → slower sales; keep service-first.
+Overall = simple sum (max 40). Notes include first paid offer + cross-check.
 
 ---
 
-## Score breakdown
+## 1) Shopify Conversion Tracking “Fix + Monitor” (Google Ads / GA4)
+**Why now:** conversion value flattening/mismatch breaks optimization while spend continues.
 
-### 1) Shopify B2B Gated Catalog + Per-Company Pricing (non-Plus) — **33.0/40**
-- Pain **4.5** (B2B operations blocked; platform constraint)
-- WTP **4.0** (B2B merchants/wholesale have budget)
-- Frequency **4.0** (daily ordering once deployed)
-- Distribution **4.5** (Shopify agencies + community posts)
-- Feasibility **4.0** (start with “gated catalog + approved login”, expand to per-company rules)
-- Advantage **3.5** (execution + Shopify-specific playbooks)
-- Retention **4.0** (once pricing rules live, hard to rip out)
-- Risk **4.5** (mostly operational; low legal)
+**Evidence anchors:**
+- Shopify thread: https://www.reddit.com/r/shopify/comments/1r7vy8w/google_ads_conversion_value_become_equal_to/
+- Marketing CAC pressure: https://www.reddit.com/r/marketing/comments/1r7d1tq/what_marketing_is_actually_working_for_you_in_2026/
+- Budget signal for conversion work: https://www.reddit.com/r/marketing/comments/1r7m2yz/need_website_overhaul_budget_2540k_freelancers_vs/
+- Moltbook reliability footgun motif (auth header stripped) → monitoring mindset: (see `raw/moltbook-1100.md`)
 
-Primary evidence:
-- Direct request: https://www.reddit.com/r/shopify/comments/1r6sjkp/b2b_help_on_normal_shopify_plan/
-- Adjacent willingness-to-pay for automation: https://www.reddit.com/r/shopify/comments/1r6xcg4/splitting_shipping/
+**First paid offer:** $299–$1,500 audit+fix; $49–$199/mo drift monitor.
 
-First paid offer (14–30d):
-- $299–$1,499 setup + $49–$199/mo.
-
-Kill criteria:
-- If Shopify APIs can’t support per-company product visibility in a reliable way for most merchants, narrow to “catalog hide + approved login + price list rules where possible” and sell as service-first.
-
----
-
-### 2) Consent Mode v2 / Tag Compliance Scan + Fix Pack — **31.5/40**
-- Pain **4.5** (lost conversion tracking = wasted spend)
-- WTP **4.0** (paid media budgets exist)
-- Frequency **3.5** (setup is one-time; monitoring makes it recurring)
-- Distribution **4.5** (agencies, PPC freelancers; “free scan” funnel)
-- Feasibility **4.0** (scanner + templates; can do manual fixes fast)
-- Advantage **3.0** (scanner commoditizes; win with fix packs + proof)
-- Retention **3.5** (monitoring + drift alerts)
-- Risk **4.5** (low legal if framed as technical diagnostics)
-
-Evidence:
-- Consent Mode scanner validation: https://tagintegrity.com/
-
-First paid offer (14–30d):
-- $149–$499 scan+fix, then $29–$99/mo monitoring.
-
-Kill criteria:
-- If scanner market is crowded, pivot to “platform playbooks” (Shopify/WP/Wix) + done-for-you implementation.
+Scores:
+- Pain 5
+- WTP 5
+- Frequency 4
+- Distribution 4
+- Feasibility 5
+- Advantage 3 (crowded; win via proof + speed)
+- Retention 4
+- Risk 4
+**Total: 34/40**
 
 ---
 
-### 3) Microsoft 365 Outbound Email Guardrails — **30.5/40**
-- Pain **4.5**
-- WTP **4.0**
-- Frequency **4.0**
-- Distribution **4.0**
-- Feasibility **3.5**
-- Advantage **3.5**
-- Retention **4.5**
-- Risk **2.5** (integration/false blocks)
+## 2) Shopify Fraud Triage + High-Risk Order Verification SOP (+ evidence pack)
+**Why now:** merchants are canceling orders automatically and seeing false positives; chargeback fear is constant.
 
-Evidence:
-- Direct pain: https://www.reddit.com/r/marketing/comments/1r6anft/mass_email_service_thats_trustworthy/
+**Evidence anchors:**
+- High risk orders / false positives: https://www.reddit.com/r/shopify/comments/1r74ib9/dealing_with_high_risk_orders/
+- “Is this order fraud?”: https://www.reddit.com/r/shopify/comments/1r7iffc/is_this_order_fraud/
+- “What is the scam here?”: https://www.reddit.com/r/shopify/comments/1r77wty/what_is_the_scam_here/
+- Shop invoice scam: https://www.reddit.com/r/shopify/comments/1r7e9zt/are_scams_like_this_common_purchase_invoice_sent/
 
-First paid offer (14–30d):
-- $300–$800 audit + $99–$299/mo managed guardrails.
+**First paid offer:** $250–$1,000 SOP + Flow implementation; optional $29–$99/mo evidence pack generator.
 
-Kill criteria:
-- If SaaS integration friction is high, lead with productized service + reporting.
-
----
-
-### 4) Shopify Marked-Down Pricing / Promo Compliance Radar — **28.0/40**
-- Pain **4.5**
-- WTP **4.0**
-- Frequency **3.0**
-- Distribution **3.5**
-- Feasibility **3.5**
-- Advantage **3.0**
-- Retention **3.0**
-- Risk **3.5** (liability/wording)
-
-Evidence:
-- Lawsuit signal: https://www.reddit.com/r/shopify/comments/1r6azs0/sued_again_over_marked_down_pricing_warning_to/
-
-First paid offer (14–30d):
-- $199–$999 audit + monitoring.
-
-Kill criteria:
-- If liability is scary, scope to “risk flags + change alerts” (no legal advice) + partner attorneys.
+Scores:
+- Pain 5
+- WTP 4
+- Frequency 5
+- Distribution 4
+- Feasibility 4
+- Advantage 3 (fraud apps exist; wedge = SOP + evidence)
+- Retention 4
+- Risk 3 (liability/false advice risk; must be careful)
+**Total: 32/40**
 
 ---
 
-### 5) Agent/Skill Supply Chain Scanner (CI Gate) — **25.5/40**
-- Pain **4.0**
-- WTP **3.5**
-- Frequency **3.0**
-- Distribution **3.0**
-- Feasibility **3.5**
-- Advantage **3.5**
-- Retention **3.0**
-- Risk **2.0** (sales cycle + scope creep)
+## 3) Shopify promo/pricing compliance micro-audit + monitoring
+**Why now:** drive-by lawsuits over technical promo language are real and expensive.
 
-Evidence:
-- NIST agent security RFI: https://www.nist.gov/news-events/news/2026/01/caisi-issues-request-information-about-securing-ai-agent-systems
-- Trust panic in sysadmin: https://www.reddit.com/r/sysadmin/comments/1r6b2u4/mods_if_you_dont_sticky_this_please_sticky/
+**Evidence anchors:**
+- “marked down pricing” lawsuit: https://www.reddit.com/r/shopify/comments/1r6azs0/sued_again_over_marked_down_pricing_warning_to/
+- Moltbook: audit trails / investigation themes (see `raw/moltbook-1100.md`)
+- Docs integrity / reputational risk backdrop: https://nvie.com/posts/15-years-later/
 
-First paid offer (14–30d):
-- $199–$999 audit sprint + CI rules (consulting-first).
+**First paid offer:** $199–$999 audit + scans; $29–$199/mo monitoring.
 
-Kill criteria:
-- If buyers demand enterprise procurement, keep as consulting + open-source scanner to create inbound.
+Scores:
+- Pain 5
+- WTP 4
+- Frequency 3
+- Distribution 3
+- Feasibility 4
+- Advantage 3
+- Retention 3
+- Risk 2 (legal-adjacent; must be “not legal advice”)
+**Total: 27/40**
 
 ---
 
-## Strict hype/no-budget rejections (wave-specific)
-- “SEO/blogger Cursor-equivalent AI” as a generic idea (too broad; unclear WTP; would need massive differentiation). Reference demand signal only: https://www.reddit.com/r/marketing/comments/1r6y6zh/dev_has_cursor_and_claude_code_what_do_we_have/
-- “AI employee 24/7” directories/marketplaces: saturated; budgets unclear; retention weak.
+## 4) Shopify POS → Square migration + cashflow/payout hygiene
+**Why now:** POS reliability + payout cadence impacts daily operations/cash.
+
+**Evidence anchors:**
+- Shopify POS pain + deposits weekly: https://www.reddit.com/r/shopify/comments/1r7f57h/shopify_switched_to_square_pos_brick_and_mortar/
+- Smallbiz appetite for “boring businesses that print money” (operator mindset): https://www.reddit.com/r/smallbusiness/comments/1r7e6fp/whats_the_best_boring_business_youve_seen_someone/
+- Moltbook ops/verification framing (see `raw/moltbook-1100.md`)
+
+**First paid offer:** $500–$3,000 migration + training.
+
+Scores:
+- Pain 5
+- WTP 4
+- Frequency 3
+- Distribution 2 (more local / service-led)
+- Feasibility 4
+- Advantage 4 (service + templates)
+- Retention 2
+- Risk 4
+**Total: 28/40**
+
+---
+
+## 5) Cert issuance/outage monitoring micro-SaaS (Google Public CA focused)
+**Why now:** real incident pressure, but market is crowded.
+
+**Evidence anchors:**
+- Google Public CA incident: https://status.pki.goog/incidents/5oJEbcU3ZfMfySTSXXd3
+- HN discussion: https://news.ycombinator.com/item?id=47055696
+- Sysadmin patch/outage culture: https://www.reddit.com/r/sysadmin/comments/1r1hz0s/patch_tuesday_megathread_20260210/
+
+**First paid offer:** $19–$99/mo monitoring + weekly digest.
+
+Scores:
+- Pain 4
+- WTP 3
+- Frequency 3
+- Distribution 3
+- Feasibility 4
+- Advantage 2
+- Retention 3
+- Risk 4
+**Total: 26/40**
+
+---
+
+## Cut list / not in top 5
+- “Return labels for Canadians” (returns tooling exists; unclear wedge): https://www.reddit.com/r/shopify/comments/1r7hbqo/why_arent_return_labels_available_for_canadians/
+- Legacy migration services (700 floppies) is real but not scalable SaaS-first: https://www.reddit.com/r/sysadmin/comments/1r7cigo/700_floppies/
+- Hard drive shortage procurement is real but sales motion may skew enterprise: https://www.heise.de/en/news/WD-and-Seagate-confirm-Hard-drives-for-2026-sold-out-11178917.html

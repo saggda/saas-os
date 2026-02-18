@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Shopify Fraud Shield: high-risk order triage + verification + chargeback evidence pack",
+    "pain": 5,
+    "wtp": 4.5,
+    "frequency": 4,
+    "distribution": 4,
+    "feasibility": 4,
+    "advantage": 3,
+    "retention": 3,
+    "risk_inverse": 3
+  },
+  {
+    "name": "Bot Lead Firewall for Meta/FB Lead Ads (verify → score → route + refund dossier)",
+    "pain": 4,
+    "wtp": 4,
+    "frequency": 4,
+    "distribution": 4,
+    "feasibility": 4,
+    "advantage": 2.5,
+    "retention": 3,
+    "risk_inverse": 3
+  },
+  {
+    "name": "Shopify POS Rescue for brick-and-mortar (hardware reliability + payout speed + migration playbook)",
+    "pain": 4,
+    "wtp": 3.5,
+    "frequency": 3,
+    "distribution": 3,
+    "feasibility": 3.5,
+    "advantage": 2.5,
+    "retention": 2.5,
+    "risk_inverse": 2.5
+  },
+  {
+    "name": "Canada Returns Label Generator for Shopify (carrier labels + RMA workflow)",
+    "pain": 3.5,
+    "wtp": 3.5,
+    "frequency": 3,
+    "distribution": 3,
+    "feasibility": 4,
+    "advantage": 2,
+    "retention": 3,
+    "risk_inverse": 3
+  },
+  {
+    "name": "Unsigned plugin/skill supply-chain scanner (secret exfil detection + signing readiness gate)",
+    "pain": 4,
+    "wtp": 3,
+    "frequency": 2.5,
+    "distribution": 2.5,
+    "feasibility": 3.5,
+    "advantage": 3.5,
+    "retention": 3,
+    "risk_inverse": 2.5
+  }
+]
