@@ -2,16 +2,33 @@
 import os, json, datetime, urllib.request, urllib.parse
 from pathlib import Path
 
+
+def load_env_file(path: Path):
+    if not path.exists():
+        return
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        k, v = line.split("=", 1)
+        k = k.strip()
+        v = v.strip().strip('"').strip("'")
+        if k and k not in os.environ:
+            os.environ[k] = v
+
+
+root = Path("/root/.openclaw/workspace/saas-os")
+load_env_file(root / ".secrets" / "moltbook.env")
+
 BASE = os.getenv("MOLTBOOK_API_BASE", "https://www.moltbook.com/api/v1")
 KEY = os.getenv("MOLTBOOK_API_KEY", "")
 if not KEY:
-    raise SystemExit("MOLTBOOK_API_KEY is required")
+    raise SystemExit("MOLTBOOK_API_KEY is required (set env or .secrets/moltbook.env)")
 
 TZ_OFFSET_HOURS = 4  # Asia/Dubai
 now = datetime.datetime.utcnow() + datetime.timedelta(hours=TZ_OFFSET_HOURS)
 date_str = now.strftime("%Y-%m-%d")
 
-root = Path("/root/.openclaw/workspace/saas-os")
 raw_dir = root / "00_inbox"
 out_dir = root / "05_experiments" / "moltbook"
 raw_dir.mkdir(parents=True, exist_ok=True)
